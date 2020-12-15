@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validation in JS</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="post" onsubmit="checkforblank()">
+	<input type="text" name="fname" placeholder="First Name" id="fname">
+	<input type="text" name="lname" placeholder="Last Name" id="lname">
+	<input type="submit" name="btn" id="sbtn">
+ 	</form>
+
+
+
+	<script>
+		function checkforblank(){
+		if(document.getElementById('fname').value == ""{
+			alert("Please fill all the required field");
+			document.getElementById('fname').style.borderColor = "red";
+			return false;
+	}
+}
+	</script>
+
+</body>
+</html>

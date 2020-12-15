@@ -1,0 +1,108 @@
+body{
+	font-family: arial, helvetica;
+	background: slategrey;
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	border: 0px solid black;
+	width: 1500px;
+	margin: 0 auto;
+	background: #fff;
+}
+#header{
+	background: crimson;
+	height: 100px;
+	padding-top: 0;
+	font-size: 18px;
+}
+#header h1{
+	padding: 30px;
+}
+#menu{
+	background: lightsalmon;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	margin-left: 35px;
+	display: inline-block;
+}
+#menu li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	color: black;
+}
+#menu li a:hover{
+	color: white;
+	transition: all 0.3s ease;
+	background: crimson;
+	text-decoration: underline;
+}
+#contactBox{
+	margin: 20px;
+	border: 1px solid black;
+	background: #fff;
+	height: 600px;
+	text-align: center;
+	width: 1250px;
+	float: left;
+	box-sizing: border-box;
+	line-height: 25px;
+	padding: 50px;
+}
+#contactBox input{
+	width: 280px;
+	outline: none;
+	height: 40px;
+	font-size: 21px;
+	padding: 0 0 0 20px;
+	border-radius: 12px;
+	border: 1.5px solid darkgreen;
+}
+#contactBox input:hover{
+	pointer-events: #fff;
+	color: #fff;
+	background: red;
+}
+#contactBox button{
+	width: 170px;
+	height: 40px;
+	background: #fff;
+	color: #red;
+	font-size: 19px;
+	outline: none!important;
+	border-radius: 12px;
+	cursor: pointer;
+	border: 1.5px solid #000;
+	align-items: center;
+}
+#contactBox button:hover{
+	color: #fff;
+	font-size: 20px;
+	transition: all 0.1s;
+	background: red;
+}
+#sidebar{
+	line-height:35px;
+	list-style-image: url(r-arrow.png);
+	background: lightblue;
+	box-sizing: border-box;
+	width: 200px;
+	min-height: 550px;
+	color: #000;
+	float: right;
+}
+#footer{
+	clear: both;
+	background: orange;
+	padding: 12px;
+}
+#footer u:hover{
+	cursor: none;
+	color: #fff;
+
+}
